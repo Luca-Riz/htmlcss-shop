@@ -65,6 +65,11 @@ img.hover {
     text-align: center;
 }
 
+.single:hover .heart {
+    color:red;
+    background-color: green;
+}
+
 .discount {
     position: absolute;
     bottom: 30px;
