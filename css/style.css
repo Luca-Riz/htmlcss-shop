@@ -28,7 +28,7 @@
     width: 32%;
     float: left;
     margin: calc(4% / 6);
-    height: 810px; /* da togliere */
+    height: 810px;
 }
 
 .single .img {
@@ -48,7 +48,7 @@ img.hover {
 }
 
 .single:hover img.hover {
-    display: block;
+    display: inline-block;
 }
 
 .heart {
@@ -103,3 +103,24 @@ img.hover {
 .product3 {
     background-color: #75ac51;
 }
+
+
+
+
+
+
+
+
+
+/* debug */
+.container.debug {
+    /* height: 500px; */
+    /* background-color: aqua; */
+    /* border: 1px solid black; */
+}
+
+.debug .single {
+    /* border: 1px solid red; */
+    /* height: 810px; */
+}
+
