@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* common */
+
+.single {
+    width: 32%;
+    float: left;
+    margin: calc(4% / 6)
+}
+
+/* single */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* debug */
+.container.debug {
+    /* height: 500px; */
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.debug .single {
+    height: 500px;
+    background-color: brown;
+    border: 1px solid red;
+}
