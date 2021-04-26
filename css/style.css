@@ -121,7 +121,10 @@ img.hover {
     display: block;
 }
 
-
+.img-hover span:hover {
+    text-decoration: underline;
+    color: red;
+}
 
 /* fine taglie */
 
