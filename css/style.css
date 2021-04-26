@@ -24,6 +24,10 @@
     font-size: 25px;
 }
 
+.row {
+    padding-bottom: 30px;
+}
+
 .single {
     width: 32%;
     float: left;
@@ -113,8 +117,11 @@ img.hover {
 
 /* debug */
 
-.debug .single {
+ /* .debug .single { 
      border: 1px solid red; 
      height: 810px; 
 }
 
+.debug .row {
+    background-color: blueviolet;
+} */
