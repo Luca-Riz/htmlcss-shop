@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .clearfix::after {
@@ -22,6 +23,8 @@
 
 .container {
     font-size: 25px;
+    width: 80%;
+    margin: auto;
 }
 
 .row {
@@ -103,31 +106,30 @@ img.hover {
     line-height: 1.6;
 }
 
-/* single */
-.container {
-    width: 80%;
-    margin: auto;
+/* inizio taglie */
+
+.img-hover {
+    background-color: white;
+    width: 100%;
+    line-height: 80px;
+    position: absolute;
+    bottom: 0;
+    display: none;
 }
+
+.single:hover .img-hover {
+    display: block;
+}
+
+
+
+/* fine taglie */
+
+
+
+/* single */
 
 .product3 {
     background-color: #75ac51;
 }
 
-
-
-
-
-
-
-
-
-/* debug */
-
- /* .debug .single { 
-     border: 1px solid red; 
-     height: 810px; 
-}
-
-.debug .row {
-    background-color: blueviolet;
-} */
