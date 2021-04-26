@@ -18,11 +18,52 @@
     margin: calc(4% / 6)
 }
 
+.single .img {
+    position: relative;
+}
+
+.single img {
+    width: 100%;
+}
+
+.heart {
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+.discount {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+}
+
+.bg-red, .bg-green {
+    color: white;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
 /* single */
 .container {
     width: 80%;
     margin: auto;
 }
+
+
+
+
+
+
+
+
+
 
 
 /* debug */
@@ -33,7 +74,5 @@
 }
 
 .debug .single {
-    height: 500px;
-    background-color: brown;
     border: 1px solid red;
 }
