@@ -10,7 +10,19 @@
     display: table;
 }
 
+.upper {
+    text-transform: uppercase;
+}
+
+.red {
+    color: red;
+}
+
 /* common */
+
+.container {
+    font-size: 25px;
+}
 
 .single {
     width: 32%;
@@ -26,20 +38,38 @@
     width: 100%;
 }
 
+img.hover {
+    display: none;
+}
+
+.single:hover img.display {
+    display: none;
+}
+
+.single:hover img.hover {
+    display: block;
+}
+
 .heart {
     position: absolute;
-    top: 5px;
+    top: 20px;
     right: 0;
+    font-size: 50px;
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    text-align: center;
 }
 
 .discount {
     position: absolute;
-    bottom: 5px;
+    bottom: 30px;
     left: 0;
 }
 
 .bg-red, .bg-green {
     color: white;
+    padding: 5px;
 }
 
 .bg-red {
@@ -48,6 +78,10 @@
 
 .bg-green {
     background-color: green;
+}
+
+.price {
+    margin-top: 20px;
 }
 
 /* single */
