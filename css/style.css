@@ -84,13 +84,24 @@ img.hover {
     margin-top: 20px;
 }
 
+.single .text {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.single .text strong, .single .text span {
+    line-height: 1.6;
+}
+
 /* single */
 .container {
     width: 80%;
     margin: auto;
 }
 
-
+.product3 {
+    background-color: #75ac51;
+}
 
 
 
@@ -111,3 +122,4 @@ img.hover {
     border: 1px solid red;
     height: 810px;
 }
+
